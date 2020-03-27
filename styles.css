@@ -1,11 +1,13 @@
 .grid-container {
     border: 3px solid;
-    height: 800px;
-    width: 75%;
+    height: 380px;
+    width: 1125px;
     margin: auto;
     margin-top: 100px;
-    display: grid;
-    grid-template-columns: 11.1% 11.1% 11.1% 11.1% 11.1% 11.1% 11.1% 11.1% 11.1%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
     background-color: #fff;
     color: #444;
 }
@@ -14,6 +16,7 @@
     background-color: #444;
     color: #fff;
     border-radius: 5px;
-    padding: 20px;
     font-size: 150%;
+    height: 125px;
+    width: 125px;
   }
