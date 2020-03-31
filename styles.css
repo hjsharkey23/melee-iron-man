@@ -22,4 +22,60 @@
 
   body {
       background-color: #211f1f;
+      margin-top: 0;
+      margin-left: 0;
+      margin-right: 0;
+  }
+
+  .top-box-style {
+      background-color: #696665;
+      height: 50px;
+      position: relative;
+  }
+
+  .top-box-style-melee {
+      height: 90px;
+      background-color: #696665;
+      width: 30%;
+      border-bottom-right-radius: 100px;
+      text-align: center;
+      font-size: 100px;
+      padding-bottom: 10px;
+  }
+
+  .randomize-bar {
+      background-color: black;
+      height: 70px;
+      width: 700px;
+      top: 60px;
+      z-index: 2;
+      position: absolute;
+      left: 700px;
+      border-radius: 10px;
+      text-align: center;
+
+  }
+
+  .button {
+    background-color: rgb(2, 3, 2); /* Green */
+    border: 5px solid white;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 32px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  .button:hover {
+      background-color: rgb(170, 169, 169);
+      color: black;
+  }
+
+  .button-span {
+      padding-right: 20px;
+      padding-left: 20px;
   }
