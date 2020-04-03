@@ -13,3 +13,4 @@ They play so much that they needed to start randomizing the character order in o
 
 This web application aims to make a user friendly way to randomize however many characters you would like and display them to you.
 
+For now, it only randomizes 26 characters for one person and nothing else. I have plans to constantly try to improve on this page over time. Starting with making it randomize for two players, and making it mobile friendly. Any features beyond that will most likely be moved into a new site that uses React.
